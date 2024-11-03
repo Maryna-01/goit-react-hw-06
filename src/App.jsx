@@ -1,4 +1,4 @@
-import ContactsForm from './components/ContactsForm';
+import ContactForm from './components/ContactForm';
 import ContactList from './components/ContactList';
 import SearchBox from './components/SearchBox';
 import './App.css'
@@ -7,7 +7,7 @@ const App = () => {
     return (
         <div>
             <h1>Phonebook</h1>
-            <ContactsForm />
+            <ContactForm />
 
             <h2>Contacts</h2>
             <SearchBox />

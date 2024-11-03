@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addContact } from "../redux/contactsSlice";
 
-const ContactsForm = () => {
+const ContactForm = () => {
     const [name, setName] = useState("");
     const [number, setNumber] = useState("");
     const dispatch = useDispatch();
@@ -30,4 +30,4 @@ const ContactsForm = () => {
     );
 };
 
-export default ContactsForm;
+export default ContactForm;
